@@ -57,8 +57,9 @@ input {
   border: 8px solid yellow;
 }
 
-.left-links .right-links {
-  list-style-type: none;
-}
 
-.
+/*Removes bullet style from the list */
+ul, ol {  
+  list-style-type: none;
+  padding:0;
+}
