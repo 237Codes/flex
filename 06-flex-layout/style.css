@@ -46,7 +46,6 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 
   border: 8px solid blue;
 }
@@ -57,9 +56,14 @@ input {
   border: 8px solid yellow;
 }
 
-
 /*Removes bullet style from the list */
-ul, ol {  
+ul,
+ol {
   list-style-type: none;
-  padding:0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
